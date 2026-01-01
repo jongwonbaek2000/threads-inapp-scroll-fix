@@ -8,3 +8,12 @@ by keeping the page slightly offset (1px),
 which blocks the unintended close behavior.
 
 Designed for React apps.
+
+## Notes
+
+This solution worked reliably in our production environment.
+However, behavior may vary depending on the project structure,
+page layout, embedded content (e.g. iframes, ads),
+and potential changes in Threads' in-app browser policies.
+
+Use as a reference rather than a guaranteed fix.
